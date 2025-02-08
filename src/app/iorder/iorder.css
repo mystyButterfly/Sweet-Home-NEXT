@@ -1,0 +1,50 @@
+.io-individual-order {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.io-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.io-introduction {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.io-how-it-works, .io-pricing, .io-form-title {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.io-steps {
+  margin: 20px 0;
+}
+
+.io-step {
+  margin: 5px 0;
+}
+
+.io-pricing-info {
+  margin-top: 10px;
+}
+
+.io-pricing-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.io-price-item {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.io-contact {
+  margin-top: 15px;
+}

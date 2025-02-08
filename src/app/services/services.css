@@ -1,0 +1,32 @@
+.services-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.services-title {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.services-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.services-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.services-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}

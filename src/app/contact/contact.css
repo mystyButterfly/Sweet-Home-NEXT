@@ -1,0 +1,67 @@
+.contact-contact {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 90%;
+  margin-inline: auto;
+}
+
+.contact-title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact-description {
+  font-size: 1.2em;
+
+  margin-bottom: 20px;
+}
+
+.contact-subtitle {
+  font-size: 1.5em;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-info,
+.contact-hours {
+  font-size: 1em;
+}
+
+.contact-contact-info,
+.contact-hours-list,
+.contact-social {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact-contact {
+      padding: 10px;
+  }
+
+  .contact-title {
+      font-size: 1.5em;
+  }
+
+  .contact-subtitle {
+      font-size: 1.2em;
+  }
+}

@@ -1,0 +1,220 @@
+.p-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.p-navigation a {
+  text-decoration: none;
+  color: var(--text-color);
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
+.p-navigation a:hover {
+  color: rgb(145, 145, 145);
+}
+.p-navigation button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(212, 211, 211, 0.658);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  border: none;
+  white-space: nowrap;
+  height: fit-content;
+  transition: 0.2s ease;
+}
+.p-navigation svg {
+  display: inline-block;
+}
+.p-navigation button:hover {
+  cursor: pointer;
+  background-color: rgb(185, 183, 183);
+}
+.p-navigation > div > * {
+  display: inline-block;
+}
+
+.p-product {
+  width: 85%;
+  margin-inline: auto;
+}
+.p-title-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-title-price p {
+  font-size: 1.3rem;
+}
+.p-title-price del {
+  font-size: 1.1rem;
+  color: red;
+}
+.p-title-price b {
+  font-size: 1.2rem;
+  color: rgb(6, 161, 4);
+}
+.p-order {
+  border: 4px solid #b7f6b1b2;
+  border-radius: 8px;
+  padding: 10px 40px;
+}
+.p-order a {
+  text-decoration-line: underline; 
+  text-decoration-color: rgba(145, 145, 145, 0.829); 
+}
+.p-order a:hover{
+  text-decoration-color: rgba(127, 114, 177, 0.998); 
+}
+.p-order h2 {
+  font-weight: 500;
+}
+.p-about div {
+  margin-top: -1rem;
+}
+.p-about h3 {
+  margin-top: 5px;
+}
+.p-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.p-images img {
+  width: 44%;
+  margin: 3%;
+}
+.p-review > * {
+  display: inline-block;
+}
+.p-reviews-title {
+  font-weight: 500;
+  padding-left: 5px;
+}
+.p-review{
+  margin-bottom: 20px;
+}
+.p-viewed {
+  border: 2px solid #b7f6b1b2;
+  border-radius: 10px;
+  padding: 10px;
+  width: min-content;
+  max-width: 100%;
+  margin-inline: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.p-viewed > p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.p-viewed-products {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.p-viewed-product {
+  border: 1px solid #b7f6b1b2;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+.p-viewed-product img {
+  border-radius: 5px;
+  max-height: 70%;
+  margin-inline: auto;
+}
+.p-viewed-products a {
+  text-decoration: none;
+  color: black;
+}
+.p-viewed-products del {
+  color: red;
+}
+.p-viewed-products b {
+  color: rgb(12, 123, 19);
+}
+.p-star {
+  background: rgb(255, 133, 0);
+  background: linear-gradient(
+    156deg,
+    rgba(255, 133, 0, 1) 0%,
+    rgba(250, 190, 0, 1) 63%,
+    rgba(244, 255, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .p-viewed {
+    width: 90%;
+    max-width: auto;
+    margin-inline: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .p-viewed-products {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .p-viewed > p {
+    width: min-content;
+    margin-inline: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .p-order {
+    border: 2px solid #b7f6b1b2;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  .p-order h2 {
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 850px) {
+  .p-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    align-items: center;
+  }
+  .p-navigation button {
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 1rem;
+    white-space: nowrap;
+    height: fit-content;
+    transition: 0.2s ease;
+    margin-inline: auto;
+  }
+  .p-title-order {
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .p-title-price p {
+    font-size: 1.1rem;
+  }
+  .p-title-price {
+    margin-inline: auto;
+  }
+  .p-order {
+    margin-inline: auto;
+  }
+  .p-order h1 {
+    font-size: 1.5rem;
+  }
+  .p-order h2 {
+    font-size: 1.2rem;
+  }
+}
