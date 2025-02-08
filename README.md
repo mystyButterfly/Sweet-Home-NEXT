@@ -1,4 +1,5 @@
 # Sweet Home NEXT - Stylish Furniture E-commerce Platform
+https://sweet-home-shop.vercel.app
 
 ## Overview
 **Sweet Home NEXT** is a responsive e-commerce web application that showcases a stunning selection of stylish and comfortable furniture. Built using the **Next.js** framework, this project leverages the power of **React** for a dynamic user experience and optimal performance, taking advantage of **server-side rendering (SSR)** for SEO and improved loading times.
